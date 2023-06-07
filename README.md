@@ -67,5 +67,5 @@ You can now play rock paper scissors versus the computer. This app uses image re
 <img src="https://github.com/jarvizconde1/BBP/assets/102355807/9abfafe3-8b17-4953-9a1a-b8ecda58083d" width="250"/>
 
 
-<img src="https://github.com/jarvizconde1/BBP/assets/102355807/7013e85b-1e82-4ee7-b4ff-6d3e00c60258" width="250"/>
+
 
