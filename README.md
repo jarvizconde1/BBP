@@ -49,11 +49,11 @@ You can now play rock paper scissors versus the computer. This app uses image re
 
 ## Screenshots
 
-
+<img src="https://github.com/jarvizconde1/BBP/assets/102355807/adedd3c8-c5f3-4c0e-82be-24d5e65db7a5" width="250" >
 <img src="https://github.com/jarvizconde1/BBP/assets/102355807/3fa668ea-ca51-4545-9ff1-74c10141e742" width="250" >
 <img src="https://github.com/jarvizconde1/BBP/assets/102355807/0561695b-9662-42d8-892e-36cea97725d0" width="250" >
-<img src="https://github.com/jarvizconde1/BBP/assets/102355807/adedd3c8-c5f3-4c0e-82be-24d5e65db7a5" width="250" >
-<img src="https://github.com/jarvizconde1/BBP/assets/102355807/2115419f-32c2-4c09-ae54-0c2cb14651fd" width="250" >
+
+
 
 
 
@@ -68,9 +68,11 @@ You can now play rock paper scissors versus the computer. This app uses image re
 
 
 
-<img src="https://github.com/jarvizconde1/MCS/assets/102355807/ca5d0dd3-5916-4dc6-babc-5aaac66fc19c" width="250"/>
+<img src="https://github.com/jarvizconde1/BBP/assets/102355807/a2db88b3-866a-4b1d-9a23-fad844854b39" width="250"/>
 
 
 
 
+
+<img src="https://github.com/jarvizconde1/BBP/assets/102355807/7013e85b-1e82-4ee7-b4ff-6d3e00c60258" width="250"/>
 
