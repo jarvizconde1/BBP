@@ -1,0 +1,618 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		26C474B6B5E44C73A01D4367B228C7D8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		42179B8C1B7F40CBA727CC0B78E5207D /* ConfettiView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0E0A9AD24CBC00A59B166EF60D02458 /* ConfettiView.swift */; };
+		514224379A5729A5B7CECFA24903FADB /* Pods-BBP-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 066571FD0198688DE7624BA764920AF4 /* Pods-BBP-dummy.m */; };
+		75C7DB9DCB8F98F3C3E9295AFC4D5F74 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		7E411148EA65274E58579F0828E07EA8 /* ShapeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CBB1B5154435A1D24D08FE4B1A60CA4 /* ShapeView.swift */; };
+		8BAE9ABC99A0DD539F476974FF97B165 /* ConfettiLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCD04C9E1632097414396EFC2ED5E08B /* ConfettiLayer.swift */; };
+		958D2BADB8EFAA96BA1FABCF39ECB9A7 /* ConfettiView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 592C9565DFF4C10D1F69ADF31150C3C1 /* ConfettiView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BE4BAFFF3343B1A36ACA892777854796 /* ConfettiView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 057AB96C1D563867BBC83FA7CCA4EB49 /* ConfettiView-dummy.m */; };
+		EAE2B3DAE4563E4E676F3C037F3BAAE0 /* Pods-BBP-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C968765D90C84AB76EF28914DD0EA365 /* Pods-BBP-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5A7303923E9E27049457C50E410ACADD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F3463509EFD34FAB495C04D2D1AF44D;
+			remoteInfo = ConfettiView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		057AB96C1D563867BBC83FA7CCA4EB49 /* ConfettiView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ConfettiView-dummy.m"; sourceTree = "<group>"; };
+		066571FD0198688DE7624BA764920AF4 /* Pods-BBP-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BBP-dummy.m"; sourceTree = "<group>"; };
+		299A6356AE171D1DBEEC1481374B6AA9 /* ConfettiView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ConfettiView.release.xcconfig; sourceTree = "<group>"; };
+		2A39A422E847FCE072BB822E5E5E7433 /* Pods-BBP-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BBP-Info.plist"; sourceTree = "<group>"; };
+		49FB197A3DDF935555F35628B901E174 /* ConfettiView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ConfettiView-Info.plist"; sourceTree = "<group>"; };
+		4E303665C20C98401626F7A5F4A0F179 /* ConfettiView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ConfettiView.debug.xcconfig; sourceTree = "<group>"; };
+		592C9565DFF4C10D1F69ADF31150C3C1 /* ConfettiView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ConfettiView-umbrella.h"; sourceTree = "<group>"; };
+		5CBB1B5154435A1D24D08FE4B1A60CA4 /* ShapeView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ShapeView.swift; path = ConfettiView/Classes/ShapeView.swift; sourceTree = "<group>"; };
+		6C9A13AB108F7FBDF78FE6B8BEEC4F32 /* Pods-BBP.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BBP.release.xcconfig"; sourceTree = "<group>"; };
+		729946728470A1B8792FD7C2D78645FC /* ConfettiView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ConfettiView.modulemap; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		88C5B44578803B2108624FAF30A5725B /* Pods-BBP-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BBP-acknowledgements.markdown"; sourceTree = "<group>"; };
+		8F852DC559BF4CA807A719F00AE4A330 /* ConfettiView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ConfettiView-prefix.pch"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9F10D5276DE3FAF17197116809B70DE6 /* Pods-BBP-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BBP-acknowledgements.plist"; sourceTree = "<group>"; };
+		A0E0A9AD24CBC00A59B166EF60D02458 /* ConfettiView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConfettiView.swift; path = ConfettiView/Classes/ConfettiView.swift; sourceTree = "<group>"; };
+		A42ADF3043B758FCCFD5FFAB6FA8EF70 /* Pods_BBP.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BBP.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A968805200A39467982EF6411EFDCB67 /* Pods-BBP.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-BBP.modulemap"; sourceTree = "<group>"; };
+		C0AF090AFA038EB2EA99B0E4220DB651 /* Pods-BBP.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BBP.debug.xcconfig"; sourceTree = "<group>"; };
+		C968765D90C84AB76EF28914DD0EA365 /* Pods-BBP-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BBP-umbrella.h"; sourceTree = "<group>"; };
+		CCD04C9E1632097414396EFC2ED5E08B /* ConfettiLayer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConfettiLayer.swift; path = ConfettiView/Classes/ConfettiLayer.swift; sourceTree = "<group>"; };
+		DEACED7C92528E27633D456031CA58EA /* Pods-BBP-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BBP-frameworks.sh"; sourceTree = "<group>"; };
+		E3FF23CEDDFCE011FD7AF1B4045F1479 /* ConfettiView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ConfettiView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0B95A05E0265755D66015028F8FF3B80 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75C7DB9DCB8F98F3C3E9295AFC4D5F74 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9EF4E24A7089A7E71B4C95E53DA049C5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26C474B6B5E44C73A01D4367B228C7D8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0B05CE46A90D62D9362323C08CF152B1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E3FF23CEDDFCE011FD7AF1B4045F1479 /* ConfettiView.framework */,
+				A42ADF3043B758FCCFD5FFAB6FA8EF70 /* Pods_BBP.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0C98634B3BCE46E3AF8219A5B68AF840 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				75E93940BDABAA704BC32A7161DC8D5E /* ConfettiView */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		1EB23489E8C41B5BF718073AD53D40ED /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				729946728470A1B8792FD7C2D78645FC /* ConfettiView.modulemap */,
+				057AB96C1D563867BBC83FA7CCA4EB49 /* ConfettiView-dummy.m */,
+				49FB197A3DDF935555F35628B901E174 /* ConfettiView-Info.plist */,
+				8F852DC559BF4CA807A719F00AE4A330 /* ConfettiView-prefix.pch */,
+				592C9565DFF4C10D1F69ADF31150C3C1 /* ConfettiView-umbrella.h */,
+				4E303665C20C98401626F7A5F4A0F179 /* ConfettiView.debug.xcconfig */,
+				299A6356AE171D1DBEEC1481374B6AA9 /* ConfettiView.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/ConfettiView";
+			sourceTree = "<group>";
+		};
+		2AD94977DAE7E4A4042CD19A830BFD2D /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B808BECEB3AC97A575FA1CF46F970E6A /* Pods-BBP */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		75E93940BDABAA704BC32A7161DC8D5E /* ConfettiView */ = {
+			isa = PBXGroup;
+			children = (
+				CCD04C9E1632097414396EFC2ED5E08B /* ConfettiLayer.swift */,
+				A0E0A9AD24CBC00A59B166EF60D02458 /* ConfettiView.swift */,
+				5CBB1B5154435A1D24D08FE4B1A60CA4 /* ShapeView.swift */,
+				1EB23489E8C41B5BF718073AD53D40ED /* Support Files */,
+			);
+			path = ConfettiView;
+			sourceTree = "<group>";
+		};
+		B808BECEB3AC97A575FA1CF46F970E6A /* Pods-BBP */ = {
+			isa = PBXGroup;
+			children = (
+				A968805200A39467982EF6411EFDCB67 /* Pods-BBP.modulemap */,
+				88C5B44578803B2108624FAF30A5725B /* Pods-BBP-acknowledgements.markdown */,
+				9F10D5276DE3FAF17197116809B70DE6 /* Pods-BBP-acknowledgements.plist */,
+				066571FD0198688DE7624BA764920AF4 /* Pods-BBP-dummy.m */,
+				DEACED7C92528E27633D456031CA58EA /* Pods-BBP-frameworks.sh */,
+				2A39A422E847FCE072BB822E5E5E7433 /* Pods-BBP-Info.plist */,
+				C968765D90C84AB76EF28914DD0EA365 /* Pods-BBP-umbrella.h */,
+				C0AF090AFA038EB2EA99B0E4220DB651 /* Pods-BBP.debug.xcconfig */,
+				6C9A13AB108F7FBDF78FE6B8BEEC4F32 /* Pods-BBP.release.xcconfig */,
+			);
+			name = "Pods-BBP";
+			path = "Target Support Files/Pods-BBP";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				0C98634B3BCE46E3AF8219A5B68AF840 /* Pods */,
+				0B05CE46A90D62D9362323C08CF152B1 /* Products */,
+				2AD94977DAE7E4A4042CD19A830BFD2D /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		9B0DB2C707878DDCE7A15878EF6A64D7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				958D2BADB8EFAA96BA1FABCF39ECB9A7 /* ConfettiView-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6EDF29F6A58FF564AB90A678780E261 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAE2B3DAE4563E4E676F3C037F3BAAE0 /* Pods-BBP-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		3F3463509EFD34FAB495C04D2D1AF44D /* ConfettiView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0E45DB1189D35F562065FDBF9499D177 /* Build configuration list for PBXNativeTarget "ConfettiView" */;
+			buildPhases = (
+				9B0DB2C707878DDCE7A15878EF6A64D7 /* Headers */,
+				1CB49744F974582E12C8CECFF8A37B15 /* Sources */,
+				9EF4E24A7089A7E71B4C95E53DA049C5 /* Frameworks */,
+				D60D27D7BC2E915BDF737758C9CAB834 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ConfettiView;
+			productName = ConfettiView;
+			productReference = E3FF23CEDDFCE011FD7AF1B4045F1479 /* ConfettiView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		97FAAE7A2613C30C4BA9320A9A046A13 /* Pods-BBP */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E73D16B7D1086BC8FD662BAECF07ECF6 /* Build configuration list for PBXNativeTarget "Pods-BBP" */;
+			buildPhases = (
+				C6EDF29F6A58FF564AB90A678780E261 /* Headers */,
+				F645631499E66D57E2682D7B7CE65A95 /* Sources */,
+				0B95A05E0265755D66015028F8FF3B80 /* Frameworks */,
+				A5F9CD8F756D7284F6DF5B8A83988F0E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6F734B830066CBD25A8909530A3DA308 /* PBXTargetDependency */,
+			);
+			name = "Pods-BBP";
+			productName = Pods_BBP;
+			productReference = A42ADF3043B758FCCFD5FFAB6FA8EF70 /* Pods_BBP.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1430;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 0B05CE46A90D62D9362323C08CF152B1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3F3463509EFD34FAB495C04D2D1AF44D /* ConfettiView */,
+				97FAAE7A2613C30C4BA9320A9A046A13 /* Pods-BBP */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A5F9CD8F756D7284F6DF5B8A83988F0E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D60D27D7BC2E915BDF737758C9CAB834 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1CB49744F974582E12C8CECFF8A37B15 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BAE9ABC99A0DD539F476974FF97B165 /* ConfettiLayer.swift in Sources */,
+				42179B8C1B7F40CBA727CC0B78E5207D /* ConfettiView.swift in Sources */,
+				BE4BAFFF3343B1A36ACA892777854796 /* ConfettiView-dummy.m in Sources */,
+				7E411148EA65274E58579F0828E07EA8 /* ShapeView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F645631499E66D57E2682D7B7CE65A95 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				514224379A5729A5B7CECFA24903FADB /* Pods-BBP-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6F734B830066CBD25A8909530A3DA308 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ConfettiView;
+			target = 3F3463509EFD34FAB495C04D2D1AF44D /* ConfettiView */;
+			targetProxy = 5A7303923E9E27049457C50E410ACADD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		250B77071D5648010D815A93B825A99B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C0AF090AFA038EB2EA99B0E4220DB651 /* Pods-BBP.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-BBP/Pods-BBP-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BBP/Pods-BBP.modulemap";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu11 gnu++14";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		497018F67C2529B14F66D5ED44822D27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6C9A13AB108F7FBDF78FE6B8BEEC4F32 /* Pods-BBP.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-BBP/Pods-BBP-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BBP/Pods-BBP.modulemap";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu11 gnu++14";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		49BDF2692F910B26C8956FB5C7171B80 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 299A6356AE171D1DBEEC1481374B6AA9 /* ConfettiView.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/ConfettiView/ConfettiView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ConfettiView/ConfettiView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/ConfettiView/ConfettiView.modulemap";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu11 gnu++14";
+				PRODUCT_MODULE_NAME = ConfettiView;
+				PRODUCT_NAME = ConfettiView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		65A2C7BC28481386890121FDF8934449 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4E303665C20C98401626F7A5F4A0F179 /* ConfettiView.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/ConfettiView/ConfettiView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ConfettiView/ConfettiView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/ConfettiView/ConfettiView.modulemap";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu11 gnu++14";
+				PRODUCT_MODULE_NAME = ConfettiView;
+				PRODUCT_NAME = ConfettiView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7C3FBC45C4966EFE20583918767EFBE2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		FF0A36149038A192FFD678E1D4A40D3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0E45DB1189D35F562065FDBF9499D177 /* Build configuration list for PBXNativeTarget "ConfettiView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65A2C7BC28481386890121FDF8934449 /* Debug */,
+				49BDF2692F910B26C8956FB5C7171B80 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7C3FBC45C4966EFE20583918767EFBE2 /* Debug */,
+				FF0A36149038A192FFD678E1D4A40D3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E73D16B7D1086BC8FD662BAECF07ECF6 /* Build configuration list for PBXNativeTarget "Pods-BBP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				250B77071D5648010D815A93B825A99B /* Debug */,
+				497018F67C2529B14F66D5ED44822D27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

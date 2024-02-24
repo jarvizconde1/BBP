@@ -32,30 +32,94 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="c6C-Nd-AaW">
-                                <rect key="frame" x="175" y="273" width="65" height="35"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="gray" title="PLAY"/>
-                                <connections>
-                                    <segue destination="3Fz-Hb-fBb" kind="show" id="PI3-Pn-qes"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Nff-5i-gja">
-                                <rect key="frame" x="139" y="360" width="136" height="35"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="gray" title="HOW TO PLAY"/>
-                            </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="tailoring (1)" translatesAutoresizingMaskIntoConstraints="NO" id="MkM-r2-dK9">
+                                <rect key="frame" x="82.666666666666686" y="137" width="249" height="294"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="294" id="aAo-0J-ikl"/>
+                                    <constraint firstAttribute="width" constant="249" id="ghf-tQ-lis"/>
+                                </constraints>
+                            </imageView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="28" translatesAutoresizingMaskIntoConstraints="NO" id="NEP-cz-ow9">
+                                <rect key="frame" x="139" y="456" width="136" height="96.666666666666629"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="c6C-Nd-AaW">
+                                        <rect key="frame" x="0.0" y="0.0" width="136" height="34.333333333333336"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="gray" title="PLAY"/>
+                                        <connections>
+                                            <segue destination="3Fz-Hb-fBb" kind="show" id="PI3-Pn-qes"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Nff-5i-gja">
+                                        <rect key="frame" x="0.0" y="62.333333333333371" width="136" height="34.333333333333343"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="gray" title="HOW TO PLAY"/>
+                                        <connections>
+                                            <segue destination="1md-wt-50J" kind="show" id="Cpq-KG-LCT"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="lhh-U3-iH9"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="MkM-r2-dK9" firstAttribute="centerX" secondItem="wre-eF-WHi" secondAttribute="centerX" id="Qqq-As-6Th"/>
+                            <constraint firstItem="MkM-r2-dK9" firstAttribute="top" secondItem="lhh-U3-iH9" secondAttribute="top" constant="73" id="oMa-Th-FF1"/>
+                            <constraint firstItem="MkM-r2-dK9" firstAttribute="centerX" secondItem="NEP-cz-ow9" secondAttribute="centerX" id="pTB-f8-xU1"/>
+                            <constraint firstItem="NEP-cz-ow9" firstAttribute="top" secondItem="MkM-r2-dK9" secondAttribute="bottom" constant="25" id="xK6-vq-qBb"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="JB2-Jk-jQg"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bLB-hn-U1n" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="678" y="517"/>
+            <point key="canvasLocation" x="676.81159420289862" y="516.84782608695662"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="qv3-vW-PGb">
+            <objects>
+                <viewController id="1md-wt-50J" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="GDR-VX-G17">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="18" translatesAutoresizingMaskIntoConstraints="NO" id="x9J-m2-FVf">
+                                <rect key="frame" x="45" y="176" width="297" height="97"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1.Place your hand on plain background " textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2Hl-Hx-A21">
+                                        <rect key="frame" x="0.0" y="0.0" width="297" height="20.333333333333332"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2.Press Lock in once you're ready" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BKy-SI-1SP">
+                                        <rect key="frame" x="0.0" y="38.333333333333343" width="255.33333333333334" height="20.333333333333329"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="3.Have Fun" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BTB-4J-BfH">
+                                        <rect key="frame" x="0.0" y="76.666666666666657" width="85.666666666666671" height="20.333333333333329"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6si-Oc-2PC"/>
+                        <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="x9J-m2-FVf" firstAttribute="top" secondItem="6si-Oc-2PC" secondAttribute="top" constant="112" id="pFU-wU-1sq"/>
+                            <constraint firstItem="x9J-m2-FVf" firstAttribute="leading" secondItem="6si-Oc-2PC" secondAttribute="leading" constant="45" id="z3T-CT-tdT"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="fju-s3-num"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="I8Y-e8-dmH" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="676.81159420289862" y="1206.521739130435"/>
         </scene>
         <!--SCORE:-->
         <scene sceneID="gQS-Iz-s1z">
@@ -65,6 +129,11 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="77p-Es-Wo5" customClass="ConfettiView" customModule="ConfettiView">
+                                <rect key="frame" x="0.0" y="64" width="414" height="672"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </view>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="wDz-5M-iKq">
                                 <rect key="frame" x="36.666666666666657" y="104.00000000000003" width="340.66666666666674" height="510.66666666666674"/>
                                 <subviews>
@@ -139,7 +208,8 @@
                     </navigationItem>
                     <connections>
                         <outlet property="cameraView" destination="yW3-8Q-Jwk" id="RNu-wX-OKY"/>
-                        <outlet property="computerAttribute" destination="W9k-oT-5Xj" id="9sQ-0d-THz"/>
+                        <outlet property="computerAttribute" destination="W9k-oT-5Xj" id="6XH-dj-p3d"/>
+                        <outlet property="confettiView" destination="77p-Es-Wo5" id="8XX-HX-FKa"/>
                         <outlet property="lockinButton" destination="O0O-bP-MYq" id="Zsb-tL-lAc"/>
                         <outlet property="result" destination="0fp-Xt-06n" id="Veg-yZ-MHT"/>
                         <outlet property="selectedAttribute" destination="LRW-eK-ozw" id="IDM-2M-AGm"/>
@@ -152,6 +222,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="tailoring (1)" width="500" height="500"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
